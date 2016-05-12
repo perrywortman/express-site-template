@@ -1,7 +1,7 @@
 {
-  "name": "treehouse-express-basics",
+  "name": "express-site-template",
   "version": "1.0.0",
-  "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
+  "description": "This repo features an express app to serve as a site template for other projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,12 @@
     "type": "git",
     "url": "https://github.com/hdngr/treehouse-express-basics.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "W. Perry Wortman",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hdngr/treehouse-express-basics/issues"
+    "url": "https://github.com/perrywortman/express-site-template/issues"
   },
-  "homepage": "https://github.com/hdngr/treehouse-express-basics",
+  "homepage": "https://github.com/perrywortman/express-site-template",
   "dependencies": {
     "express": "^4.13.0",
     "jade": "^1.11.0"
