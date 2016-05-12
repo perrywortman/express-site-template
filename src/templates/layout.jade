@@ -1,7 +1,18 @@
 doctype html
 html(lang="en")
-		include ./partials/_head.jade
-		
-		body#page-top
-			include ./partials/_nav.jade
-			block content
+	include ./partials/_head.jade
+
+	body#page-top
+		include ./partials/_nav.jade
+		block content
+
+
+		script(src='/static/js/jquery.js')
+		// Bootstrap Core JS
+		script(src='/static/js/bootstrap.min.js')
+		// Plugins JS
+		script(src='/static/js/jquery.easing.min.js')
+		script(src='/static/js/jquery.fittext.js')
+		script(src='/static/js/wow.min.js')
+		// Custom Theme JS
+		script(src='/static/js/creative.js')
