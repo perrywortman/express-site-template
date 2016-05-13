@@ -7,7 +7,7 @@ npm install -g node-inspector
 # have nodemon run the app in one terminal tab
 # nodemon will watch for file changes in the express app
 # and restart the server
-nodemon --debug src
+nodemon --debug src/app.js
 
 # run the debugger in another terminal
 # node-inspector will break the application when a break point
